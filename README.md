@@ -9,7 +9,7 @@
 * Add sourcemap for scss 
 * Markups must be adaptive and responsive according to BEM methodology
 
-![image4](https://user-images.githubusercontent.com/10829855/139446331-d7725b7c-3eef-48cf-991f-ca58d4f889f7.png)
+![Screenshot 2024-09-21 at 11 07 42](https://github.com/user-attachments/assets/bc616433-96c3-464a-845a-1c282f7a17c9)
 
 # Directory Structure
 
