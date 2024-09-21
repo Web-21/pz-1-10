@@ -55,3 +55,29 @@ table {
 /*Medium devices (tablets, 768px and up)*/
 /*Large devices (desktops, 992px and up)*/
 /*Extra large devices (large desktops, 1200px and up)*/
+.avz-header__logo {
+  width: 30px;
+  height: 25px;
+  padding: 23px 30px 22px;
+  fill: #fff;
+}
+
+@media (max-width: 1200px) {
+  .avz-header__logo {
+    padding: 23px 20px 22px;
+  }
+}
+.avz-header {
+  background: #000;
+  position: relative;
+  height: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
