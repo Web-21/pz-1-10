@@ -1,0 +1,47 @@
+.footer__under__text-link {
+    color: $text-color;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer__under__text-proud {
+    color: $text-color;
+}
+.footer__under__text-thanks {
+    color: $text-color;
+    font-style: italic;
+}
+.margin {
+    margin-right: 20px;
+}
+.left {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__under {
+    width: 100%;
+    height: 100px;
+    background-color: $block-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (min-width: 375px) and (max-width: 767px) {
+    .footer__under {
+        height: 300px;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .footer__under__text {
+        flex-wrap: wrap;
+        width: 230px;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer__under__text {
+        flex-wrap: wrap;
+        width: 180px;
+    }
+}
+
