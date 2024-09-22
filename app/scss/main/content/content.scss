@@ -1,0 +1,10 @@
+@import "item/item.scss";
+.main__content{
+    font: 16px/2 Arial,sans-serif;
+    text-size-adjust: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 0 100px;
+    padding: 0 5%;
+}
