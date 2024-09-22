@@ -1,0 +1,24 @@
+.main__pictures__block-picture {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.main__pictures__block_content-link {
+    text-decoration: none;
+}
+.main__pictures__block_content {
+    text-align: center;
+}
+.main__pictures__block{
+    width: fit-content;
+    height: fit-content;
+}
+.main__pictures__block_content-title {
+    font-size: 24px;
+    text-decoration: none;
+    color: $block-color;
+}
+.main__pictures__block_content-description {
+    font-size: 20px;
+    text-decoration: none;
+}

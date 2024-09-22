@@ -1,0 +1,7 @@
+@import "block/block.scss";
+
+.main__pictures {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
