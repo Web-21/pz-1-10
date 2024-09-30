@@ -1,4 +1,12 @@
 @import "variables";
 @import "reset";
 @import "media-query";
-@import "avz-header/avz-header";
+@import "iav-header/iav-header";
+@import 'iav-main/iav-main';
+@import 'iav-footer/iav-footer';
+
+body {
+    font: {
+        family: 'Arial', sans-serif;
+    }
+}

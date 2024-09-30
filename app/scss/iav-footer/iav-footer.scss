@@ -1,0 +1,48 @@
+.iav-footer {
+    display: flex;
+    align-items: flex-end;
+    background: $footer-bg-color;
+    background-image: $footer-bg-image;
+    background-repeat: no-repeat;
+    width: $footer-width;
+    color: $footer-color;
+    height: 300px;
+    overflow: hidden;
+}
+
+.iav-footer__layout {
+    width: 100vw;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    bottom: 50px;
+}
+
+.iav-footer__social {
+    display: flex;
+    gap: 25px;
+    margin-left: 25px;
+    padding-top: 5px;
+    flex-wrap: wrap;
+
+    .iav-footer__social-text {
+        color: $footer-color;
+        font-weight: $footer-text-weight-bold;
+    }
+}
+
+.iav-footer__authors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iav-footer__authors-text {
+    font-style: italic;
+    line-height: 1.8;
+}
+
+.iav-footer__spawn-text {
+    margin-right: 25px;
+    line-height: 1.8;
+}
