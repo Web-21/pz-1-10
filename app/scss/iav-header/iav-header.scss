@@ -20,7 +20,7 @@
   gap: $header-gap-between-elements;
   padding-right: $header-padding-right;
 
-  .iav-header-cont__link, .iav-header__languages-link {
+  .iav-header-cont__link, .iav-header-languages__link {
     text-decoration: none;
     color: $header-color-text;
     letter-spacing: $header-letter-spacing;
@@ -28,11 +28,11 @@
   }
 }
 
-.iav-header-cont__link:hover, .iav-header__languages-link:hover {
+.iav-header-cont__link:hover, .iav-header-languages__link:hover {
   color: $header-color-text-hover;
 }
 
-.iav-header__languages-link--en::after {
+.iav-header-languages__link-land-en::after {
   content: '/';
   position: relative;
   left: 3px;
