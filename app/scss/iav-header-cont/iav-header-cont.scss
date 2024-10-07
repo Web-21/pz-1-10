@@ -1,0 +1,17 @@
+.iav-header-cont {
+  height: $header-height;
+  display: flex;
+  align-items: center;
+  gap: $header-gap-between-elements;
+  padding-right: $header-padding-right;
+
+  &__link{
+    text-decoration: none;
+    color: $header-color-text;
+    letter-spacing: $header-letter-spacing;
+    transition: all $header-transition-speed ease-in-out;
+    &:hover {
+      color: $header-color-text-hover;
+    }
+  }
+}
