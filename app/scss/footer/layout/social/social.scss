@@ -1,0 +1,26 @@
+.footer__layout__social{
+    width: 330px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.footer__layout__social-text{
+    text-decoration: none;
+    color: $footer-text-color;
+    font-weight: 600;
+}
+@media (min-width: 768px) and (max-width:991px) {
+    .footer__layout__social{
+        width: 150px;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 375px) and (max-width:767px){
+    .footer__layout__social {
+        width: 220px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+}
