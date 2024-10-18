@@ -1,0 +1,11 @@
+.header-content {
+  &__search {
+    width: 17px;
+    height: 17px;
+    fill: none;
+    stroke: $header-unactiv-color;
+    stroke-width: 2;
+    padding: 23px 31px 26px 25px;
+    cursor: pointer;
+  }
+}

@@ -1,14 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>PZ_1_10</title>
   <link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
-<body>
 
-<script src="js/bundle.js"></script>
+<body class="page">
+  <header class="header">
+    <div class="header__logo">
+      <svg class="logo__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.7 84">
+        <path
+          d="M0 13h23.8v7H0zM0 0h23.8v7H0zm42.7 25.9H0v7h41.1c4.5 0 15 .1 18.9 6.4v-3.9c-1.9-6.2-7.5-9.5-17.3-9.5zm.1 13H0v7h41.1c10 0 16.3.4 18.9 1.8v-3.1c-2-4.9-10.4-5.7-17.2-5.7zm-.1 33H0v-7h41.1c4.5 0 15-.1 18.9-6.4v3.9c-1.9 6.2-7.5 9.5-17.3 9.5zm.1-13H0v-7h41.1c10 0 16.3-.4 18.9-1.8v3.1c-2 4.9-10.4 5.7-17.2 5.7zM70.4 84h31.4v-4.3H71.3c-2.7 0-9.1-.1-11.4-3.8v2.4C61 82 64.4 84 70.4 84zm-.1-7.9h31.4v-4.3H71.3c-6.1 0-9.9-.2-11.4-1.1v1.9c1.2 3 6.3 3.5 10.4 3.5z">
+        </path>
+      </svg>
+    </div>
+    <div class="header__content">
+      <div class="header__content__forum">
+        <a class="header__content__forum-text" href="#">Форум</a>
+      </div>
+      <div class="header__content__lang">
+        <a class="header__content__lang-link" href="#">EN</a>
+        <span class="header__content__lang-separator">/</span>
+        RU
+      </div>
+      <div class="header__content__search">
+        <svg viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="7" cy="7" r="6"></circle>
+          <path d="M11 11l5 5"></path>
+        </svg>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <h1 class="main-title">БЭМ</h1>
+    <div class="main__content">
+      <dl class="main__content_item">
+        <dt class="main__content_item-title">
+          <a class="main__content_item-link" href="#">
+            <img class="main__content_item-img" src="https://ru.bem.info/S3zKVZJcFfltyiAz-bWVmw4o3IU.svgd">
+            Методология
+          </a>
+        </dt>
+        <dd class="main__content_item-promo">Идея и архитектура</dd>
+        <dd class="main__content_item-promo">
+          <a class="main__content_item-promo-link" href="#">Быстрий старт</a>
+        </dd>
+      </dl>
+      <dl class="main__content_item">
+        <dt class="main__content_item-title"></dt>
+        <a class="main__content_item-link" href="#">
+          <img class="main__content_item-img" src="https://ru.bem.info/UkC0yRpjS421DGQJVLY7NzcCQT0.svgd">
+          Технологии
+        </a>
+        </dt>
+        <dd class="main__content_item-promo">
+          <a class="main__content_item-promo-link" href="#">Классический БЭМ-стек</a>
+        </dd>
+        <dd class="main__content_item-promo">
+          <a class="main__content_item-promo-link" href="#">React</a>
+        </dd>
+      </dl>
+      <dl class="main__content_item">
+        <dt class="main__content_item-title"></dt>
+        <a class="main__content_item-link" href="#">
+          <img class="main__content_item-img" src="https://ru.bem.info/sc8PKz2XRRSpmgLkuUDuX8Dxg0o.svgd">
+          Инструментарий
+        </a>
+        </dt>
+        <dd class="main__content_item-promo">Инструменты и SDK</dd>
+      </dl>
+      <dl class="main__content_item">
+        <dt class="main__content_item-title"></dt>
+        <a class="main__content_item-link" href="#">
+          <img class="main__content_item-img" src="https://ru.bem.info/02mklZRLCFKWdJvQogsWV4g-sFc.svgd">
+          Библиотеки
+        </a>
+        </dt>
+      </dl>
+      <dl class="main__content_item">
+        <dt class="main__content_item-title"></dt>
+        <a class="main__content_item-link" href="#">
+          <img class="main__content_item-img" src="https://ru.bem.info/MM1-tuvSlHrNkiFtyWjYeNVfvBM.svgd">
+          Учебные материалы
+        </a>
+        </dt>
+      </dl>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__legos"></div>
+    <div class="footer__layout">
+      <div class="footer__layout__social">
+        <a class="footer__layout__social-text" href="#">Telegram</a>
+        <a class="footer__layout__social-text" href="#">Slack</a>
+        <a class="footer__layout__social-text" href="#">Facebook</a>
+        <a class="footer__layout__social-text" href="#">Twitter</a>
+      </div>
+      <div class="footer__layout__authors">
+        <a class="footer__layout__authors-text text-italic">Ядвига и Яцек Даниц</a><a class="footer__layout__authors-text"> — спасибо за домен!</a>
+      </div>
+      <div class="footer__layout__spawn">
+        <a class="footer__layout__spawn-text text-fat">БЭМ</a><a class="footer__layout__spawn-text"> с гордостью сделан в </a><a class="footer__layout__spawn-text text-fat">Яндексе</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/bundle.js"></script>
 
 </body>
+
 </html>

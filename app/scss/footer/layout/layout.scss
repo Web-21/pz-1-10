@@ -1,0 +1,21 @@
+@import "social/social.scss";
+@import "authors/authors.scss";
+@import "spawn/spawn.scss";
+
+.footer__layout {
+    width: 100%;
+    
+    background-color: $fotter-header-bg;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .footer__layout {
+        justify-content: space-between;
+        flex-direction: row;
+        height: 140px;
+    }
+}
