@@ -1,19 +1,26 @@
-.footer__layout__authors {
-    width: fit-content;
-    height: fit-content;
+.footer__layout {
+    &__authors {
+        width: fit-content;
+        height: fit-content;
+
+        &-text {
+            color: $footer-text-color;
+        }
+    }
+
 }
-.footer__layout__authors-text{
-    color: $footer-text-color;
-}
-.text-italic{
+
+.text-italic {
     font-style: italic;
 }
-@media (min-width: 768px) and (max-width:991px){
+
+@media (min-width: 768px) and (max-width:991px) {
     .footer__layout__authors {
         width: 200px;
     }
 }
-@media (min-width: 375px) and (max-width:767px){
+
+@media (min-width: 375px) and (max-width:767px) {
     .footer__layout__authors {
         width: 200px;
         margin: auto;

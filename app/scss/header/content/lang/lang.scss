@@ -1,9 +1,12 @@
-.header__content__lang {
-    margin: 20px 0 0 46px;
-    letter-spacing: 2px;
-    color: #fff;
-}
-.header__content__lang-link {
-    text-decoration: none;
-    color: $header-unactiv-color;
+.header__content {
+    &__lang {
+        margin: 20px 0 0 46px;
+        letter-spacing: 2px;
+        color: #fff;
+
+        &-link {
+            text-decoration: none;
+            color: $header-unactiv-color;
+        }
+    }
 }

@@ -1,10 +1,13 @@
-.header__content__forum{
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
-    letter-spacing: 2px;
-}
-.header__content__forum-text{
-    text-decoration: none;
-    color: $header-unactiv-color;
+.header__content {
+    &__forum {
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        letter-spacing: 2px;
+
+        &-text {
+            text-decoration: none;
+            color: $header-unactiv-color;
+        }
+    }
 }

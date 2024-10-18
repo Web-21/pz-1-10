@@ -1,20 +1,26 @@
-.footer__layout__spawn {
-    width: fit-content;
-    height: fit-content;
-    margin-right: 30px;
+.footer__layout {
+    &__spawn {
+        width: fit-content;
+        height: fit-content;
+        margin-right: 30px;
+
+        &-text {
+            color: $footer-text-color;
+        }
+    }
 }
-.footer__layout__spawn-text{
-    color: $footer-text-color;
-}
-.text-fat{
+
+.text-fat {
     font-weight: 600;
 }
-@media (min-width: 768px) and (max-width:991px){
+
+@media (min-width: 768px) and (max-width:991px) {
     .footer__layout__spawn {
         width: 200px;
     }
 }
-@media (min-width: 375px) and (max-width:767px){
+
+@media (min-width: 375px) and (max-width:767px) {
     .footer__layout__spawn {
         width: 200px;
         margin: auto;
