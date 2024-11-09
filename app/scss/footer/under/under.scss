@@ -1,14 +1,16 @@
-.footer__under__text-link {
+.footer__under__text {
+    &-link{
     color: $text-color;
     text-decoration: none;
     font-weight: bold;
-}
-.footer__under__text-proud {
-    color: $text-color;
-}
-.footer__under__text-thanks {
-    color: $text-color;
-    font-style: italic;
+    }
+    &-proud{
+         color: $text-color;
+    }
+    &-thanks {
+        color: $text-color;
+        font-style: italic;
+    }
 }
 .margin {
     margin-right: 20px;

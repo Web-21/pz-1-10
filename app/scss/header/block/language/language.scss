@@ -1,13 +1,13 @@
-.header__block__language-english {
-    text-decoration: none;
-    color: $block-text-color;
-}
-.header__block__language-dash {
-    color: $block-text-color;
-}
-.header__block__language-ukrainian {
-    color: $text-color;
-}
 .header__block__language {
     letter-spacing: 3px;
+    &-english {
+    text-decoration: none;
+    color: $block-text-color;
+    }
+    &-dash {
+    color: $block-text-color;
+    }
+    &-ukrainian {
+    color: $text-color;
+    }
 }

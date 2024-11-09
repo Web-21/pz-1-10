@@ -68,21 +68,18 @@ table {
   letter-spacing: 2px;
 }
 
+.header__block__language {
+  letter-spacing: 3px;
+}
 .header__block__language-english {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.65);
 }
-
 .header__block__language-dash {
   color: rgba(255, 255, 255, 0.65);
 }
-
 .header__block__language-ukrainian {
   color: #fff;
-}
-
-.header__block__language {
-  letter-spacing: 3px;
 }
 
 .header__block__loupe {
@@ -126,18 +123,20 @@ table {
           align-items: center;
 }
 
-.main__pictures__block-picture {
-  width: 200px;
-  height: 200px;
-  margin-bottom: 10px;
+.main__pictures__block_content {
+  text-align: center;
 }
-
 .main__pictures__block_content-link {
   text-decoration: none;
 }
-
-.main__pictures__block_content {
-  text-align: center;
+.main__pictures__block_content-title {
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+}
+.main__pictures__block_content-description {
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .main__pictures__block {
@@ -148,16 +147,10 @@ table {
   height: -moz-fit-content;
   height: fit-content;
 }
-
-.main__pictures__block_content-title {
-  font-size: 24px;
-  text-decoration: none;
-  color: #000;
-}
-
-.main__pictures__block_content-description {
-  font-size: 20px;
-  text-decoration: none;
+.main__pictures__block-picture {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
 }
 
 .main__pictures {
@@ -190,11 +183,9 @@ table {
   text-decoration: none;
   font-weight: bold;
 }
-
 .footer__under__text-proud {
   color: #fff;
 }
-
 .footer__under__text-thanks {
   color: #fff;
   font-style: italic;
