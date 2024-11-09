@@ -1,0 +1,10 @@
+@import "forum/forum.scss";
+@import "language/language.scss";
+@import "loupe/loupe.scss";
+
+.header__block {
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+    align-items: center;
+}
