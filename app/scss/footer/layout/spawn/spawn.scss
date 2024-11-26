@@ -1,0 +1,31 @@
+.footer {
+    &__spawn {
+        width: fit-content;
+        height: fit-content;
+        margin-right: 30px;
+
+        &-text {
+            color: $footer-text-color;
+        }
+    }
+}
+
+.footer__spawn-text--bold {
+    font-weight: 600;
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .footer__spawn {
+        width: 200px;
+    }
+}
+
+@media (min-width: 375px) and (max-width:767px) {
+    .footer__spawn {
+        width: 200px;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,31 @@
+.content {
+ &__item {
+   font-size: 18px;
+   line-height: 1.5;
+   margin: 0 20px 60px;
+   text-align: center;
+   &-link {
+     font-size: 24px;
+     font-weight: 300;
+     line-height: 1;
+     text-decoration: none;
+     color: #000;
+   }
+   &-promo {
+     margin: 5px;
+   }
+   
+ }
+ &__promo-link {
+     text-decoration: none;
+   }
+
+ }
+
+.content__item-img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

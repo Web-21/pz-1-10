@@ -1,4 +1,10 @@
 @import "variables";
 @import "reset";
 @import "media-query";
-@import "avz-header/avz-header";
+@import "header/header";
+@import "main/main.scss";
+@import "footer/footer.scss";
+.page {
+    font: 16px / 2 Arial, sans-serif;
+}
+
